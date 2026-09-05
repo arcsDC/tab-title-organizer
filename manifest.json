@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Title Organizer",
+  "version": "1.0",
+  "description": "Groups tabs by domain and displays a compact, sorted title list.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
